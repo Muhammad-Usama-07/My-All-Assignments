@@ -1,0 +1,133 @@
+<html>
+<head>
+    <link rel="stylesheet" href="Assignment2.css">
+</head>
+<body>
+    <img class="saylani_logo" src="Saylani-logo.png">
+    <label class = "regis_head">STUDENT REGISTRATION FORM</label>
+    <form action="submit.html">
+    <div class="form"> 
+    <p>
+        <label>FIRST NAME:</label>
+        <input type="text" placeholder="Enter first name" maxlength="30">(max 30 character a-z and A)
+    </p>
+    <p>
+        <label>LAST NAME:</label> 
+        <input type="text" placeholder="Enter last name" maxlength="30">(max 30 character a-z and A-Z )
+    </p>
+    <p>
+        <label>DATE OF BIRTH:</label> 
+        <select id="DOB">
+            <option value="Day">Day</option>
+        </select>
+        <select>
+            <option  value="Month">Month:</option>
+        </select>
+        <select>
+            <option  value="Year">Year:</option>
+        </select>
+    </p>
+    <p>
+        <label>EMAIL ID:</label> 
+        <input type="text" placeholder="Enter email address">
+    </p>
+    <p>
+        <label>MOBILE NUMBER:</label> 
+        <input type="text" placeholder="Enter mobile number" maxlength="30">(10 digit number)
+    </p>
+    <p>
+        <label>GENDER:</label> 
+        Male<input type="radio" name="gen">Female<input type="radio" name="gen">
+    </p>
+    <p class="test_area_class">
+        <label for="textarea">ADDRESS:</label>
+        <textarea id="textarea" rows="5" cols="35"></textarea>
+    </p>
+    
+    <p>
+        <label>CITY:</label> 
+        <input type="text" placeholder="Enter city name" maxlength="30">(max 30 character a-z and A-Z)
+    </p>
+    <p>
+        <label>PIN CODE:</label> 
+        <input type="text" placeholder="Enter pincode name" maxlength="6">(6 digit number)
+    </p>
+    <p>
+        <label>STATE:</label> 
+        <input type="text" placeholder="Enter state name" maxlength="30">(max 30 character a-z and A-Z)
+    </p>
+    <p>
+        <label>COUNTRY:</label> 
+        <input type="text" placeholder="Enter country name">
+    </p>
+    <p>
+        <label>HOBBIES:</label> 
+        Drawing<input type="checkbox">
+        Singing<input type="checkbox">
+        Dancing<input type="checkbox">
+        Sketching<input type="checkbox"><br>
+        <label id="other">Others</label><input type="checkbox">
+        <input type="text">
+    </p>
+    <p class="label_table">
+    <label for="tab">QUALIFICATION:</label>
+    <table id="tab">
+        <tr class="tab_heads">
+            <th>SL.No.</th>
+            <th>Examination</th>
+            <th>Board</th>
+            <th>Percentage</th>
+            <th>Year of passing</th>
+        </tr>
+        <tr>
+            <th class="column_num">1</th>
+            <th class="your_class">Class X</th>
+            <td class="board"></td>
+            <td class="percen"></td>
+            <td class="year"></td>
+        </tr>
+        <tr>
+            <th class="column_num">2</th>
+            <th class="your_class">Class XII</th>
+            <td class="board"></td>
+            <td class="percen"></td>
+            <td class="year"></td>
+        </tr>
+        <tr>
+            <th class="column_num">3</th>
+            <th class="your_class">Graduation</th>
+            <td class="board"></td>
+            <td class="percen"></td>
+            <td class="year"></td>
+        </tr>
+        <tr>
+            <th class="column_num">4</th>
+            <th class="your_class">Master</th>
+            <td class="board"></td>
+            <td class="percen"></td>
+            <td class="year"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td class="last_head">(10 char max)</td>
+            <td class="last_head">(upto two decimal)</td>
+            <td></td>
+        </tr>
+        
+    </table>
+    </p>
+    <p><label>COURSES<br>APPLIED FOR:</label> 
+        BCa<input class="course" type="radio">B.com<input class="course" type="radio">
+        B.sc<input class="course" type="radio">B.a<input class="course" type="radio"></p>
+    <div class="butn_group">
+        <center>
+        <button type="submit" value="Submit">Submit</button>
+        <button type="reset" value="Reset">reset</button>
+        </center>
+    </div>
+    </div>
+    </form>
+</body>
+
+</html>

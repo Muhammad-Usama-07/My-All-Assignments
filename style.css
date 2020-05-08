@@ -1,0 +1,50 @@
+.top_heading{
+    
+    background-color: #F7D406;
+    text-align: center;
+    height: 15%;        
+}
+.welcome_head{
+    
+    font-size: 20px;
+}
+
+.boxes{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.Assign1{
+    background-color: #E8880A;
+    border: 1px solid Black;
+    width: 30%;
+    height: 40%;
+    float: left;
+    text-align: center;
+    font-family: cursive;
+    box-shadow: 10px 10px #888888;
+}.Assign2{
+    background-color: #E56F17;
+    border: 1px solid Black;
+    width: 30%;
+    height: 40%;
+    float: left;
+    margin-left: 20px;
+    text-align: center;
+    font-family: cursive;
+    box-shadow: 10px 10px #888888;
+}.Assign3{
+    background-color: #BA4B00;
+    border: 1px solid Black;
+    width: 30%;
+    height: 40%;
+    float: left;
+    margin-left: 20px;
+    text-align: center;
+    font-family: cursive;
+    box-shadow: 10px 10px #888888;
+}
+.box_details{
+    font-size: 20px;
+    line-height: 1.9;
+}

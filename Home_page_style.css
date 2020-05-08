@@ -1,0 +1,157 @@
+.top_header{
+    max-width: 100%;
+    max-height: 15%;
+
+    background-color: #316DC3 ; 
+    
+}
+.colorr{
+    background-color: #316DC3;
+}
+.images{
+    margin-left: 5%;
+}
+
+.images li{
+    display: inline;
+    padding: 5px;
+}
+.fix{
+    background-color: #F9F6F6;
+    width: 100%;
+    position: fixed;
+    top: 8%;
+}
+.posi{
+    margin-top: 120px;
+}
+.pos{
+    margin-left: 50px;
+}
+.murq{
+    background-color: #316DC3;
+    margin-top: 10px;
+    margin-left: 20%;
+    font-size: 20px;
+}
+#intro{
+    margin-top: 5%;
+    margin-left: 43%;
+    font-family: 'Merriweather', serif;
+    color: #316DC3;
+    
+}
+#inro{
+    
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;   
+}
+.serving{
+    background-color: blue;
+    height: 45%;
+}
+.serve{
+    margin-left: 15%;
+}
+.serve_cal{
+    margin-left: 12%;
+}
+.serve_label{
+    margin-left: 8%;
+}
+.serving ul li{
+    display: inline;
+    position: relative;
+    top: 50px;
+}
+.serve2{
+ margin-left: 12%;   
+    display: inline;
+    position: relative;
+    top: 50px;
+}
+#intro2{
+    font-family: 'Merriweather', serif;
+    color: #316DC3;
+    margin-top: 10px;
+    margin-left: 40%;
+    margin-right: 20%;   
+}
+.program{
+    width: 100%;
+    height: 40%;
+    background-color: #F9F6F6;
+}
+.boxes1{
+    padding-top: 20px;
+    padding-left: 15%;
+    padding-right: 20px;
+}
+.Assign1{
+    background-color: white;
+    width: 25%;
+    height: 60%;
+    float: left;
+    text-align: center;
+    font-family: cursive;
+    box-shadow: 10px 5px 5px gray;
+}.Assign2{
+    background-color: white;
+    width: 25%;
+    height: 60%;
+    float: left;
+    margin-left: 5%;
+    text-align: center;
+    font-family: cursive;
+    box-shadow: 10px 5px 5px gray;
+}.Assign3{
+    background-color: white;
+    width: 25%;
+    height: 60%;
+    float: left;
+    margin-left: 5%;
+    text-align: center;
+    font-family: cursive;
+    box-shadow: 10px 5px 5px gray;
+}
+.box_details{
+    font-size: 100%;
+    line-height: 1.9;
+}
+.upcomming
+{
+    margin-top: 5%;
+    width: 100%;
+    height: 40%;
+    
+}
+
+.program1{
+    width: 50%;
+    margin-left: 10%;
+    float: left;
+}
+.program2{
+    float: left;
+}
+
+.dropdown:hover > .dropdown-menu {
+    display: block;
+    
+}
+.dropdown > .dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
+
+.hov1 ul li:hover{
+    background-color: #316DC3;
+}
+.hov1 ul li a:hover{
+    background-color: #316DC3;
+}
+#hov2:hover{
+    background-color: #316DC3;
+}
+

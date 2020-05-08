@@ -1,0 +1,80 @@
+@font-face {
+  font-family: calibribold;
+  src: url(Calibri Bold.ttf);
+}
+.saylani_logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+.regis_head{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    font-family: serif;
+    font-size: 20px;
+    color: slateblue;
+    font-weight: bold;
+    text-decoration: underline;
+    
+}
+.form{
+    margin-left: 80px;
+    margin-right: 150px;
+    align-items: center;
+    background-color: slateblue;
+    position: relative;
+}
+p{
+    color: white;
+}
+label{
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 220px;
+    vertical-align: bottom;
+    display: inline-block;
+}
+#other{
+    margin-left: 243px;
+    width: 50px;
+    
+}
+input{
+    padding: 6px;
+}
+#tab{
+    
+    background-color: slateblue;
+    margin-left: 225px;
+    table-layout: fixed;
+}
+.column_num, .your_class, {
+    background-color: slateblue;
+    text-align: left;
+}
+
+.tab_heads{
+    background-color: slateblue;
+}
+.board, .percen, .year{
+    background-color: white;
+    width: 25%;
+}
+.last_head{
+    text-align: center;
+    color: white;
+}
+.butn_group{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.test_area_class * {
+    vertical-align: top;
+}
+.label_table *{
+    vertical-align: bottom  ;
+}

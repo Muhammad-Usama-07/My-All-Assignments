@@ -1,0 +1,59 @@
+.Head{
+    text-align: center;
+    background-color: yellow;
+    height: 20%;
+    font-size: 80;
+}
+.numbers{
+    border: none;
+    width: 5%;
+}
+
+.alkalimetals{
+    background-color: burlywood;
+    width: 5%;
+}
+.alkalineEarthMetal{
+    background-color: coral;
+    width: 5%;
+
+}
+.transitionelement{
+    background-color: mediumpurple;
+    width: 5%;
+}
+.otherelement{
+    width: 5%;
+    background-color: chocolate;
+    
+}
+.halogens{
+    width: 5%;
+    background-color:forestgreen;
+}
+.nobalgasses{
+    width: 5%;
+    
+}
+.ree{
+    width: 5%;
+    background-color: aquamarine;
+    
+}
+.actinoidelement{
+    width: 5%;
+    background-color: aqua;
+}
+.othermetals{
+    width: 5%;
+    background-color: pink;
+}
+.ls{
+    width: 5%;
+    border: none;
+}
+
+.as{
+    width: 5%;
+    border: none;
+}
